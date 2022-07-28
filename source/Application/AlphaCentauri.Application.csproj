@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CrossCutting\AlphaCentauri.CrossCutting.csproj" />
+        <ProjectReference Include="..\Database\AlphaCentauri.Database.csproj" />
+        <ProjectReference Include="..\Domain\AlphaCentauri.Domain.csproj" />
+        <ProjectReference Include="..\Model\AlphaCentauri.Model.csproj" />
+    </ItemGroup>
+</Project>
